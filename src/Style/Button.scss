@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Lato-light";
+    src: url(../assets/Font/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: "Lato-regular";
+    src: url(../assets/Font/Lato/Lato-Regular.ttf);
+}
+
+@mixin hoverDiv {
+
+    background-color: #666;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+  }
+
+.new-game-btn {
+    font-family: "Lato-light";
+    font-size: 3rem;
+    padding: 1.5rem;
+    padding-block: 3rem;
+    margin-block: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;
+
+    &:hover {
+        background-color: #3e8e41;
+    }
+    &:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+}
+
+.btnNum2 {
+    padding: 1rem;
+    margin-inline: 0.5rem;
+    border-radius: 1rem;
+}
+
+.difficulty-btn {
+    padding: 1rem;
+    border: solid 1px #4caf50;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+    color:#4caf50;
+    transition-duration: 200ms, 200ms;
+    &:hover {
+        background-color: #4caf50;
+        color: #fff;
+    }
+    &:focus{
+        background-color: #4caf50;
+        color: #fff;
+    }
+}
+
+.btn {
+    font-family: "Lato-regular";
+}
+
+.go-btn{
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;
+    &:hover {
+        background-color: #3e8e41;
+    }
+    &:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+}
+
+.cut-volume{
+    background-color: transparent;
+    border: solid 0.3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    transition-duration: 200ms, 200ms;
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        border: solid 0.3rem #000;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .difficulty-btn-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .btnNum2{
+        padding: 0.1rem;
+    }
+
+    .cut-volume{
+        margin-block: 0.3rem;
+    }
+}

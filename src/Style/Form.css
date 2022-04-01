@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Lato-light";
+  src: url(../assets/Font/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: "Lato-regular";
+  src: url(../assets/Font/Lato/Lato-Regular.ttf);
+}
+
+h3, p {
+  font-family: "Lato-regular";
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  width: 4rem;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.3rem;
+  margin-block: 1rem;
+}
+
+.answer-sentence {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=Form.css.map */

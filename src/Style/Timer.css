@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Digital";
+  src: url(../assets/Font/digital-7/digital7.ttf);
+}
+
+.timer {
+  font-family: "Digital";
+  font-size: 3rem;
+  margin-block: 1rem;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=Timer.css.map */

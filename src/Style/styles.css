@@ -1,0 +1,187 @@
+@font-face {
+
+    font-family: "Lato-Black";
+    src: url(../Font/Lato-Black.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-BlackItalic";
+    src: url(../Font/Lato-BlackItalic.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-Bold";
+    src: url(../Font/Lato-Bold.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-BoldItalic";
+    src: url(../Font/Lato-BoldItalic.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-Italic";
+    src: url(../Font/Lato-Italic.ttf) format(".ttf");
+}
+
+@font-face {
+
+    font-family: "Lato-Light";
+    src: url(../Font/Lato-Light.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-LightItalic";
+    src: url(../Font/Lato-LightItalic.ttf) format(".ttf");
+
+}
+
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url(../Font/Lato-Regular.ttf) format(".ttf");
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html {
+    font-size: 62, 5%;
+}
+
+h1, h2, h3, p, textarea, span {
+
+    font-family: 'Lato', sans-serif;
+    color: #000;
+
+}
+
+.site {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 30rem;
+    border: solid;
+    border-color: rgb(102, 110, 112);
+    ;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
+
+
+
+
+}
+
+.site, .title, .title1, .title2, .content, .numberSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numberSection {
+    padding-bottom: 1rem;
+}
+
+.num {
+    padding: 0rem;
+    text-align: center;
+}
+
+.btnNum {
+    padding: 1rem;
+}
+
+.answer {
+
+    padding: 0rem 5rem 0rem 5rem;
+
+
+}
+
+textarea {
+    width: 100%;
+    font-size: large;
+}
+
+button {
+    width: 100%;
+}
+
+.modal {
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retry {
+    width: 10%;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.winner-img {
+    width: 60%;
+}
+
+.loose-img {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.time {
+    font-size: 2rem;
+}

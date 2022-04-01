@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Lato-light";
+    src: url(../assets/Font/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: "Lato-regular";
+    src: url(../assets/Font/Lato/Lato-Regular.ttf);
+}
+
+h3, p{
+    font-family: "Lato-regular";
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 4rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3rem;
+    margin-block: 1rem;
+}
+
+.answer-sentence{
+    font-size: 1.5rem;
+}
+

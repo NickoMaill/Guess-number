@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Guess-number/static/css/main.074d227c.css",
+    "main.js": "/Guess-number/static/js/main.b464afa7.js",
+    "static/js/787.d1d8ce9a.chunk.js": "/Guess-number/static/js/787.d1d8ce9a.chunk.js",
+    "static/media/dot.png": "/Guess-number/static/media/dot.1b399112b1092fc1582a.png",
+    "static/media/happy.png": "/Guess-number/static/media/happy.78b74abbaf6a9a5c6dba.png",
+    "static/media/doh.png": "/Guess-number/static/media/doh.b50b1805e727b6c7e737.png",
+    "static/media/Lato-Light.ttf": "/Guess-number/static/media/Lato-Light.bfc37ff1d5543ecd4ec6.ttf",
+    "static/media/Lato-Regular.ttf": "/Guess-number/static/media/Lato-Regular.9919edff6283018571ad.ttf",
+    "static/media/digital7.ttf": "/Guess-number/static/media/digital7.93911ab167c943140756.ttf",
+    "static/media/D'oh.mp3": "/Guess-number/static/media/D'oh.b76bc2515f9af8dce42b.mp3",
+    "static/media/Woohoo.mp3": "/Guess-number/static/media/Woohoo.9a1f4392cd859dcbed30.mp3",
+    "index.html": "/Guess-number/index.html",
+    "main.074d227c.css.map": "/Guess-number/static/css/main.074d227c.css.map",
+    "main.b464afa7.js.map": "/Guess-number/static/js/main.b464afa7.js.map",
+    "787.d1d8ce9a.chunk.js.map": "/Guess-number/static/js/787.d1d8ce9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.074d227c.css",
+    "static/js/main.b464afa7.js"
+  ]
+}
